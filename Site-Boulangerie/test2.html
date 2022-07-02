@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./images/favicon.ico">
+
+		<title>Boutiques: A descriptive command-line framework</title>
+
+    <!-- Bootstrap core CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="./resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./resources/css/carousel.css" rel="stylesheet">
+  </head>
+  <body style="font-family: 'Open Sans', sans serif">
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+			<img src="./images/logo.png" height="30px" width="28px" style="display:inline" alt="Logo"> &nbsp; Boutiques</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/boutiques/boutiques">Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://nbviewer.jupyter.org/github/boutiques/tutorial/blob/master/notebooks/boutiques-tutorial.ipynb">Getting Started</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="doc">Docs</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://zenodo.org/search?page=1&size=20&keywords=Boutiques&keywords=schema&keywords=version&file_type=json&type=software">Supported Tools</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="first-slide" src="./images/home.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-md-block text-left">
+							<img src="./images/logo.png" height="130px" style="display:inline" alt="Logo">
+              <h1 style="display:inline;vertical-align:middle;font-size:40pt">Boutiques</h1>
+							<br/> <br/> <br/>
+							<p>A descriptive command-line framework automating tool validation and deployment.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://github.com/boutiques/boutiques/" role="button">&raquo; Fork us on Github!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    <!-- ================================================== -->
+
+    <div class="container marketing">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h3 class="featurette-heading">Create your descriptor. <span class="text-muted">Scalably deploy.</span></h3>
+          <p class="lead" style="text-align:justify">Boutiques is a tool to automatically publish, integrate, and execute applications across computational platforms. Boutiques applications are summarized in a simple yet rich JSON description, and enable the simulation, validation, evaluation, and application-specific monitoring of command-line tools.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="./images/boutiquesfig1.png" alt="boutiques paper figure 1">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+    <!-- ================================================== -->
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+          <h2 class="featurette-heading">Portable and scalable <span class="text-muted">analysis.</span></h2>
+          <p class="lead" style="text-align:justify">Boutiques leverages Linux container engines such as Docker and Singularity to deploy tools across platforms without any installation. Computational ecosystems such as <a href="http://cbrain.mcgill.ca">CBRAIN</a> or <a href="http://vip.creatis.insa-lyon.fr">VIP</a> make use of Boutiques descriptors to import and manage deployment of pipelines at scale.</p>
+        </div>
+        <div class="col-md-5 pull-md-7" style="text-align:center">
+          <img class="featurette-image mx-auto" src="http://logo-logos.com/wp-content/uploads/2016/10/Docker_logo_logotype.png" alt="Docker logo" height="180"> <br/>
+          <img class="featurette-image mx-auto" src="http://singularity.lbl.gov/images/logo/logo.svg" alt="Singularity logo" height="180">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+    <!-- ================================================== -->
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png" alt="JSON" width="140" height="140">
+          <h2>Descriptor Schema</h2>
+          <p>Boutiques is defined by a JSON schema, meaning that tools described in Boutiques can be flexibly interpretted and edited, regardless of the infrastructure. The schema defines inputs, outputs, error codes, input-groups, containers, and more.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/boutiques/boutiques/blob/master/tools/python/boutiques/schema/descriptor.schema.json" role="button">View schema &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://developer.fedoraproject.org/static/logo/python.png" alt="python" width="140" height="140">
+          <h2>Python Package</h2>
+          <p>You can simply install the Boutiques package with <code>pip install boutiques</code>. This package enables validation,simulation, execution, publishing, and the evaluation of descriptors and their invocations from a simple command-line tool, <code>bosh</code>.</p>
+          <p><a class="btn btn-secondary" href="https://github.com/boutiques/boutiques/blob/master/README.md" role="button">View package &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://about.zenodo.org/static/img/logos/zenodo-black-1000.png" alt="zenodo" height="140">
+          <h2>Zenodo Repository</h2>
+          <p>Many descriptors are available through the Zenodo resource-sharing portal. <code>bosh publish</code> command enables you to push your descriptor for public consumption, as well.</p>
+          <p><a class="btn btn-secondary" href="https://zenodo.org/search?page=1&size=20&keywords=Boutiques&keywords=schema&keywords=version&file_type=json&type=software" role="button">Browse Zenodo &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+    <!-- ================================================== -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+				<div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h2 >Get involved!</h2>
+          <p class="lead" style="text-align:justify">The Boutiques schema and tools are under active development, and new contributors are always welcome. Be sure to check out the <a href="https://github.com/boutiques/boutiques/blob/master/CONTRIBUTING.md">contribution guide</a> and get started on a <a href="https://github.com/boutiques/boutiques/issues?q=is%3Aissue+is%3Aopen+label%3Abeginner">beginner issue</a>.</p> <br/>
+          <h2>References</h2>
+          <p class="lead" style="text-align:justify">Please cite Boutiques with the following:</p>
+					<ul>
+						<li> Tristan Glatard, Gregory Kiar, Tristan Aumentado-Armstrong, Natacha Beck, Pierre Bellec, Rémi Bernard, Axel Bonnet, Sorina Camarasu-Pop, Frédéric Cervenansky, Samir Das, Rafael Ferreira da Silva, Guillaume Flandin, Pascal Girard, Krzysztof J. Gorgolewski, Charles R.G. Guttmann, Valérie Hayot-Sasson, Pierre-Olivier Quirion, Pierre Rioux, Marc-Eienne Rousseau, Alan C. Evans, "Boutiques: a flexible framework for automated application integration in computing platforms." arXiv preprint <a href="https://arxiv.org/abs/1711.09713">arXiv:1711.09713 (2017)</a>.
+						<li> Tristan Glatard, Gregory Kiar, Tristan Aumentado-Armstrong, Natacha Beck, Rafael Ferreira da Silva, & Marc-Etienne Rousseau. boutiques/boutiques. <a href="https://doi.org/10.5281/zenodo.1098558"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1098558.svg" alt="DOI"></a>
+</li>
+					</ul>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="float-right"><a href="https://boutiques.github.io">Back to top</a></p>
+        <p>&copy; Boutiques</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="./resources/js/bootstrap.min.js"></script>
+  </body>
+</html>
