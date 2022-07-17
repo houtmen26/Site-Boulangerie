@@ -1,0 +1,38 @@
+
+
+@font-face {
+    font-family: "font-1";
+    src: url(./asset/The_Nautigal/TheNautigal-Bold.ttf)
+    
+}
+@font-face {
+    font-family: "font-2";
+    src: url(./asset/Dosis/Dosis-VariableFont_wght.ttf);
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "font-1", cursive;
+}
+
+body{
+    font-family:"font-2", sans-serif;
+}
+
+#logo{
+    object-position: left top;
+    width: 100px;
+    
+
+}
+
+#gif{
+        height: 300px;
+        width: 400px;
+       position:relative;
+       left:35%
+}
+
+.header{
+    background-color: #111;
+}

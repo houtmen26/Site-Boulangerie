@@ -1,0 +1,37 @@
+
+
+
+
+
+
+#boulangerie_right{
+
+    height: 150px;
+    width:250px;
+   margin: auto;
+  
+   position: absolute; top: 0px;left:70%;
+
+}
+
+
+
+#vienoi_right{
+
+    height: 150px;
+    width:250px;
+    margin-top: 5px;
+  
+   position: absolute; top: 200px;left:70%;
+}
+
+#patis_right{
+
+    height: 150px;
+    width:250px;
+    margin-top: 5px;
+  
+    position: absolute; top: 400px;left:70%;
+}
+
+

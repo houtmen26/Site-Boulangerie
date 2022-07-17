@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+   
+	<link href="contact.css" rel="stylesheet" type="text/css"> 
+	<script type="text/javascript" src="inscription.js"> </script> 
+	<title>WeBaguette-Contactez-nous</title>
+
+</head>
+<body>
+	<header>
+		<div class="nav-outer">
+			<div class="nav-wrap">
+				<nav class="navigation">
+					<div class="logo"><a href="index.html"><img id="logo" src="./image/LOGO.png"/></a></div>
+					<div class="nav" nav-menu-style="yoga">
+					<ul class="nav-menu">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="contact.html"> Contactez-nous</a></li>
+						<li><a href="produit.html"> Boutique</a></li>
+						<li><a href="panier.html">Panier : 0 Article</a></li>
+						
+					</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<br>
+		
+		<br>
+		<br>
+		
+		<br>
+		<br><br>
+		<br>
+		<br><br>
+		
+		
+		</header>
+	<form action="mailto:houtmen.elmo@gmail.com" method="POST" onsubmit="return check()" class="whatsapp-form">
+		<div class="datainput">
+			<input class="validate" name="name" required="" type="text" placeholder="Nom*"/>
+			<span class="highlight"></span><span class="bar"></span>
+		
+		</div>
+		<div class="datainput">
+			<input class="validate" name="prenom" required="" type="text" placeholder="Prénom*">
+			<span class="highlight"></span><span class="bar"></span>
+			
+		</div>
+		<div class="datainput">
+			<input class="validate" id="wa_email" id="mail" name="email" required="" type="email"  placeholder="Email*">
+			<span class="highlight"></span><span class="bar"></span>
+		
+		</div>
+		<label>Sexe</label>
+		<br>
+        <div class="datainput">
+			<input class="validate"  name="Sexe" required="" type="radio" />
+			<label for="Sexe">Homme</label>
+			
+
+
+		</div>
+		<div class="datainput">
+			<input class="validate"  name="Sexe" required="" type="radio" />
+			<label for="Sexe">Femme</label>
+			
+
+
+		</div>
+		<br> 
+        <div class="datainput">
+			<textarea cols="30" rows="10" placeholder="Message"></textarea>
+ 			
+		</div>
+		<input class="send_form" type="submit" value="Envoyer" ></input>
+		<div id="text-info"></div>
+		</form>
+		
+</body>
+
+</html>
